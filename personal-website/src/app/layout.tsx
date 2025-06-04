@@ -23,13 +23,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  
+
 
   return (
     <html lang="en">
-      <body className="h-screen flex items-center justify-center">
-        <NavigationBar/>
-        <main>{children}</main>
+      <body className="flex justify-center">
+        <div className="flex flex-col items-center justify-center w-2/3">
+          <NavigationBar/>
+          <main className="w-full grow">{children}</main>
+        </div>
       </body>
     </html>
   );
