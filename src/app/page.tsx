@@ -15,10 +15,10 @@ export default function Home() {
           <div className="w-full h-0.5 bg-gray-700 mt-1"></div>
         </div>
         <div className="w-full h-full"></div>
-      </div>
+      </div> 
       <div className="flex flex-row-reverse justify-center">
         <div>
-          <Image src={'/image.png'} alt={"Long and Mantis"} width={600} height={200} draggable={false} />
+          <Image src={'image.png'} alt={"Long and Mantis"} width={600} height={200} draggable={false} />
           <div className="italic text-sm">A picture of me and a Mantis at the Fushimi Inari Shrine in Kyoto, Japan in July 2023</div>
         </div>
         <div className="flex flex-col m-4 items-start">
