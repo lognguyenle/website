@@ -13,7 +13,7 @@ export default function NavigationBar() {
 
   return (
     <div className="flex w-full justify-between flex-row">
-      <div className="self-center text-2xl text-center font-bold"> longlonglo.ng </div>
+      <div className="self-center text-2xl text-center font-bold"> longng.org </div>
       <div className="justify-end">
         {navLinks.map((item, i) => {
           return (
