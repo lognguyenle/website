@@ -12,11 +12,13 @@ export default function NavigationBar() {
   const router = useRouter();
 
   return (
-      <div className="flex justify-end w-full flex-row space-x-10">
+    <div className="flex w-full justify-between flex-row">
+      <div className="self-center text-2xl text-center font-bold"> longlonglo.ng </div>
+      <div className="justify-end">
         {navLinks.map((item, i) => {
           return (
             <button className="
-              ring-3 outline-gray-500 
+              ring-2 outline-gray-500 
               ring-offset-10 ring-offset-black rounded-lg 
               m-6 hover:bg-white hover:ring-offset-white transition
               hover:text-black hover:outline-black duration-[0.14s]"
@@ -30,5 +32,7 @@ export default function NavigationBar() {
             </button>)
         })}
       </div>
+
+    </div>
   )
 }
