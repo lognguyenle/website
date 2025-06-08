@@ -18,10 +18,10 @@ export default function NavigationBar() {
         {navLinks.map((item, i) => {
           return (
             <button className="
-              ring-2 outline-gray-500 
+              ring-2
               ring-offset-10 ring-offset-black rounded-lg 
               m-6 hover:bg-white hover:ring-offset-white transition
-              hover:text-black hover:outline-black duration-[0.14s]"
+              hover:text-black hover:outline-black duration-[0.14s] bg-black"
               key={i}
               onClick={() => {
                 router.push(item.path)

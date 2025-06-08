@@ -16,13 +16,13 @@ export default function ProjectsPage() {
       title: "Habitat",
       github: "https://github.com/TeamHabitat/HabitatApp",
       description: "A project idea born from a hackathon. Built in React Native, using React Three Fiber to generate a 3D environment where users could see their real time progress in productivity. Planned features were merging gardens with other users and evolving plants. It was fun to work on this project but the challenges that come with making a 3D app in React Native were numerous, like performance and library compatibility makes me not recommend using React Native for complicated user experiences like games.",
-      image: ["habitat1.png", "habitat2.png"]
+      image: ["habitat/habitat1.png", "habitat/habitat2.png"]
     },
     {
       title: "Python Go",
       github: "https://github.com/lognguyenle/Go",
       description: "A game I made to learn how to implement algorithms and data structures in Python. I used the pygame library to draw images. I believe the piece and capturing interactions are correct but there is no score counting. You can only change the board size in the code. Probably will never finish this.",
-      image: ["go1.png", "go2.png", "go3.png", "go4.png"]
+      image: ["go/go1.png", "go/go2.png", "go/go3.png", "go/go4.png"]
     },
   ]
 
