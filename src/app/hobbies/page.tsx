@@ -14,12 +14,12 @@ export default function HobbyPage() {
     {
       title: "Car",
       description: "I have recently gotten into working on cars. I have a 300k mile V6 Honda Accord that I drive daily, and am currently trying to restore my dad's 1979 Datsun 280ZX coupe. At first I started with the basics on my Accord like engine and transmission oil changes, changing out the radio, and even cleaning out the intake manifold. The 280ZX has not been driven in a while and is known for being prone to rust so I am currently cleaning up the rust on the car before driving it.",
-      image: ["/cars/car1.jpg","/cars/car2.jpg","/cars/car3.jpeg","/cars/car4.jpeg"],
+      image: ["cars/car1.jpg","cars/car2.jpg","cars/car3.jpeg","cars/car4.jpeg"],
     },
     {
       title: "Music",
       description: "I have had a long history with music, both playing and listening. I started playing the violin in elementary school, learned how to play only one really hard song on the piano during covid, and now I mainly play the electric guitar. I hope to actually learn the trumpet one day, something romantic about playing a solo off the balcony with it or something. I like to think my taste of music is diverse, from classical music to alternative/indie rock to JPop but nowadays I only listen to Japanese music. My goal is to get better at the guitar but discipline is hard to come by sometimes, regarding practice. My guitar gear is a Gibson The Paul with Seymour Duncan Seth Lovers pickups and a Yamaha THR10II amp. I also have a Yamaha guitar and bass I sometimes fiddle with.",
-      image:["/guitar.jpg"]
+      image:["guitar.jpg"]
     }
   ]
 

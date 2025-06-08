@@ -10,7 +10,7 @@ export default function ResumePage() {
         <div className="w-full h-full"></div>
       </div>
       <div className="mt-5">
-        <><a href="/Long_Nguyenle_Resume.pdf" className="text-blue-400 underline">Here is my resume</a></>
+        <><a href="Long_Nguyenle_Resume.pdf" className="text-blue-400 underline">Here is my resume</a></>
       </div>
     </div>
   )
