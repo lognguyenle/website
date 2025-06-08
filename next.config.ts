@@ -1,10 +1,8 @@
-const repoName = 'website';
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: `.`,
-  assetPrefix: `.`,
+  output: "export",
+  basePath: "/website",
+  assetPrefix: "/website",
   images: {
     unoptimized: true,
   },
