@@ -1,3 +1,6 @@
+
+
+
 export default function HobbyPage() {
     return (
         <div className="justify-center grow shrink-0 basis-0 p-5">

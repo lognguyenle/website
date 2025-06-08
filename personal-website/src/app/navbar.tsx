@@ -19,7 +19,7 @@ export default function NavigationBar() {
               ring-3 outline-gray-500 
               ring-offset-10 ring-offset-black rounded-lg 
               m-6 hover:bg-white hover:ring-offset-white transition
-              hover:text-black hover:outline-black duration-[0.2s]"
+              hover:text-black hover:outline-black duration-[0.14s]"
               key={i}
               onClick={() => {
                 router.push(item.path)

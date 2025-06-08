@@ -27,8 +27,8 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className="flex justify-center">
-        <div className="flex flex-col items-center justify-center w-2/3">
+      <body className="flex justify-center bg-gradient-to-b from-gray-900 via-gray-800 to-gray-700 text-white min-h-screen">
+        <div className="flex flex-col items-center justify-center w-2/3 h-full">
           <NavigationBar/>
           <main className="w-full grow">{children}</main>
         </div>
